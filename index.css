@@ -1,0 +1,134 @@
+
+.logo {
+  position: relative;
+  bottom: 528px
+}
+nav {
+  position: relative;
+  bottom: 570px;
+  left: 1000px;
+  max-width: 500px;
+  font-size: 24px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline-block; /*один из способов разместить элементы в строку*/
+  padding: 0px 30px 0px 0px
+  
+}
+
+nav a {
+  text-decoration: none;
+  line-height: 38px;
+}
+
+.first {
+	position: relative;
+	top: 300px;
+	max-width: 970px;
+	width: 100%
+}
+h1, h2, h3, h4, p {
+	font-family: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+}
+.future {
+	color: #466984;
+	font-size: 56px;
+    font-weight: 700;
+    text-align: inherit;
+}
+.solutions {
+	font-size: 26px;
+    font-weight: 400;
+    text-align: inherit;
+    color: inherit;
+}
+.text1 {
+	font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: inherit;
+    color: inherit;
+}
+.fon1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.all {
+	margin-left: 300px
+}
+.funds {
+ position: relative;
+ top: 200px;
+ max-width: 700px;
+}
+.service {
+	color: #5d92b1;
+	font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: left;
+}
+.elements {
+	position: relative;
+	left: 200px;
+}
+.apple, .banana {
+	border-radius: 10px;
+	max-width: 700px;
+}
+.name1, .name2, .name3 {
+	line-height: 2;
+	position: relative;
+	left: 400px;
+	bottom: 175px;
+	max-width: 700px;
+	font-size: 22px
+}
+.phone {
+	position: fixed;
+	top: 770px;
+	left: 1650px
+}
+a:hover{
+	color: #808080
+}
+.phonepic {
+    transition: 0.5s;
+}
+ .phonepic:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+ }
+body, html {
+    height: 100%;
+    min-height: 100%;
+}
+.apple, .logo, .fon1, .banana, .cucumber .phonepic {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+.fon2 {
+	background-color: #9f98a3;
+	max-width: 1855px;
+	max-height: 580px;
+	width: 1855px;
+	height: 100%;
+	position: absolute;
+	top: 2000px;
+	right: 8px;
+	
+}
+.block1 {
+	width: 550px;
+	height: 458px;
+	border:1px solid black;
+	border-radius: 10px;
+	position: relative;
+	top: 290px;
+}
